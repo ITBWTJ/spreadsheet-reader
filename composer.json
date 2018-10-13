@@ -22,6 +22,8 @@
 		"ext-zip": "*"
 	},
 	"autoload": {
-		"classmap": ["./"]
+		"psr-4": {
+			"ITBWTJ\\SpreadsheetReader\\": "src/"
+		}
 	}
 }
